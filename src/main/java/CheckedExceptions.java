@@ -7,7 +7,7 @@ public class CheckedExceptions {
             checkedExceptions.methodWithCheckedException();
         } catch (IOException e) {
             e.printStackTrace();
-        }finally {
+        } finally {
             System.out.println("Finally is always execute.");
         }
     }

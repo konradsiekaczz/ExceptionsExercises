@@ -4,9 +4,11 @@ public class Main {
 
         try {
             jenny.doSomething();
-        }catch (MyException e){
+        } catch (MyException e) {
             e.printStackTrace();
             System.out.println("Catch my exceptions.");
         }
+
+        jenny.testThrowingExceptions();
     }
 }

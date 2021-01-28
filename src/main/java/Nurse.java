@@ -21,4 +21,9 @@ public class Nurse {
             e1.printStackTrace();
         }
     }
+
+    public void testTwoThrowingExceptions() throws IOException{
+        IOException e = new IOException("Throwing second IOException!");
+            throw e;
+    }
 }

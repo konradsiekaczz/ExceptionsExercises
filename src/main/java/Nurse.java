@@ -9,7 +9,7 @@ public class Nurse {
         this.age = age;
     }
 
-    public void doSomething() {
+    public void doSomething() throws MyException {
         System.out.println("Exception notification!");
         throw new MyException();
     }
